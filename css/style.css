@@ -162,14 +162,14 @@ body {
     color: var(--dark-color);
     background-color: var(--white-color);
     padding: 1.5rem 6rem;
-    border-radius: 3rem;
+    border-radius: 50px;
 
     transition: background-color .5s ease-in-out;
 }
 
 .project__button--inactive,
 .project__button__link:hover,
-.about__button:hover {
+.about__button {
     background-color: var(--dark-color);
     color: var(--white-color);
 }
@@ -233,6 +233,12 @@ body {
 
 .casestudy__img {
     width: 80%;
+}
+
+.casestudy__processes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .casestudy__process {
@@ -541,7 +547,6 @@ body {
         flex-direction: row;
         justify-content: center;
         gap: 5rem;
-        padding: 0 auto;
     }
 
     .project--reverse {
@@ -606,14 +611,14 @@ body {
     }
 
     .casestudy__processes {
-        display: flex;
-        gap: 3rem;
+        flex-direction: row;
         justify-content: center;
         padding-bottom: 4rem;
     }
 
     .casestudy__process {
         align-items: center;
+        gap: 3rem;
         text-align: left;
         gap: 5rem;
     }
