@@ -52,6 +52,7 @@ body {
 
 .nav__breadcrumbs__link {
     text-decoration: none;
+    font-weight: 700;
     color: var(--green-color);
 }
 
@@ -159,6 +160,7 @@ body {
     display: block;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
     color: var(--dark-color);
     background-color: var(--white-color);
     padding: 1.5rem 6rem;
@@ -181,6 +183,7 @@ body {
 
 .projects__cta__link {
     color: var(--green-color);
+    font-weight: 700;
     font-size: 20px;
 }
 
@@ -201,7 +204,6 @@ body {
 }
 
 .about__wrapper {
-    /*background-color: var(--green-color);*/
     background-image: url(../img/background-wave.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,7 +230,7 @@ body {
 .casestudy__wrapper {
     background-image: url(../img/background-wave.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .casestudy__img {
@@ -335,6 +337,7 @@ body {
 
 .footer__list-item__link {
     color: var(--green-color);
+    font-weight: 700;
 }
 
 /* OTHER STYLING */

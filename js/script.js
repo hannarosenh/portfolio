@@ -1,4 +1,4 @@
-const init = () => {
+const handleToggleMenu = () => {
     const $hamburger = document.querySelector('.hamburger');
     const $nav = document.querySelector('.nav__list');
 
@@ -12,6 +12,10 @@ const init = () => {
         $hamburger.classList.remove("active");
         $nav.classList.remove("active");
     }))
+}
+
+const init = () => {
+handleToggleMenu();
 }
 
 init();
