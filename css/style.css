@@ -53,7 +53,7 @@ body {
 .nav__breadcrumbs__link {
     text-decoration: none;
     font-weight: 700;
-    color: var(--green-color);
+    color: var(--red-color);
 }
 
 .nav__breadcrumbs__link:hover {
@@ -182,8 +182,7 @@ body {
 }
 
 .projects__cta__link {
-    color: var(--green-color);
-    font-weight: 700;
+    color: var(--red-color);
     font-size: 20px;
 }
 
@@ -231,6 +230,8 @@ body {
     background-image: url(../img/background-wave.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
+    padding: auto;
 }
 
 .casestudy__img {
@@ -336,7 +337,7 @@ body {
 }
 
 .footer__list-item__link {
-    color: var(--green-color);
+    color: var(--red-color);
     font-weight: 700;
 }
 
